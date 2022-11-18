@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/src/rw_latches/rw_latches.cc.o -c /tmp/buzzdb-snippets/src/rw_latches/rw_latches.cc",
+  "file": "/tmp/buzzdb-snippets/src/rw_latches/rw_latches.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/src/utils/file.cc.o -c /tmp/buzzdb-snippets/src/utils/file.cc",
+  "file": "/tmp/buzzdb-snippets/src/utils/file.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/src/utils/tutorial.cc.o -c /tmp/buzzdb-snippets/src/utils/tutorial.cc",
+  "file": "/tmp/buzzdb-snippets/src/utils/tutorial.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/mc_driver.cpp.o -c /tmp/buzzdb-snippets/mc_driver.cpp",
+  "file": "/tmp/buzzdb-snippets/mc_driver.cpp"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/mc_lexer.yy.cc.o -c /tmp/buzzdb-snippets/cmake-build-debug-docker/mc_lexer.yy.cc",
+  "file": "/tmp/buzzdb-snippets/cmake-build-debug-docker/mc_lexer.yy.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/buzzdb.dir/mc_parser.tab.cc.o -c /tmp/buzzdb-snippets/cmake-build-debug-docker/mc_parser.tab.cc",
+  "file": "/tmp/buzzdb-snippets/cmake-build-debug-docker/mc_parser.tab.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/rw_latches_test.dir/test/unit/rw_latches/rw_latches_test.cc.o -c /tmp/buzzdb-snippets/test/unit/rw_latches/rw_latches_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/rw_latches/rw_latches_test.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/file_test.dir/test/unit/utils/file_test.cc.o -c /tmp/buzzdb-snippets/test/unit/utils/file_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/utils/file_test.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/tutorial_test.dir/test/unit/utils/tutorial_test.cc.o -c /tmp/buzzdb-snippets/test/unit/utils/tutorial_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/utils/tutorial_test.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/rw_latches_test_valgrind.dir/test/unit/rw_latches/rw_latches_test.cc.o -c /tmp/buzzdb-snippets/test/unit/rw_latches/rw_latches_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/rw_latches/rw_latches_test.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/file_test_valgrind.dir/test/unit/utils/file_test.cc.o -c /tmp/buzzdb-snippets/test/unit/utils/file_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/utils/file_test.cc"
+},
+{
+  "directory": "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+  "command": "/usr/bin/c++  -I/tmp/buzzdb-snippets/src/include -isystem /tmp/buzzdb-snippets/cmake-build-debug-docker  -fPIC -Wall -Wextra -Werror -march=native -Wno-strict-aliasing -g -std=gnu++17 -o CMakeFiles/tutorial_test_valgrind.dir/test/unit/utils/tutorial_test.cc.o -c /tmp/buzzdb-snippets/test/unit/utils/tutorial_test.cc",
+  "file": "/tmp/buzzdb-snippets/test/unit/utils/tutorial_test.cc"
+}
+]

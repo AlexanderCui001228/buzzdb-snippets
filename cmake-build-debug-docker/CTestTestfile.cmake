@@ -1,0 +1,18 @@
+# CMake generated Testfile for 
+# Source directory: /tmp/buzzdb-snippets
+# Build directory: /tmp/buzzdb-snippets/cmake-build-debug-docker
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(rw_latches_test "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/rw_latches_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_rw_latches_test.xml")
+set_tests_properties(rw_latches_test PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;57;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")
+add_test(rw_latches_test_valgrind "/usr/bin/valgrind" "--error-exitcode=1" "--leak-check=full" "--soname-synonyms=somalloc=*jemalloc*" "--trace-children=yes" "--track-origins=yes" "--suppressions=/tmp/buzzdb-snippets/script/valgrind.supp" "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/rw_latches_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_rw_latches_test.xml")
+set_tests_properties(rw_latches_test_valgrind PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;64;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")
+add_test(file_test "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/file_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_file_test.xml")
+set_tests_properties(file_test PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;57;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")
+add_test(file_test_valgrind "/usr/bin/valgrind" "--error-exitcode=1" "--leak-check=full" "--soname-synonyms=somalloc=*jemalloc*" "--trace-children=yes" "--track-origins=yes" "--suppressions=/tmp/buzzdb-snippets/script/valgrind.supp" "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/file_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_file_test.xml")
+set_tests_properties(file_test_valgrind PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;64;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")
+add_test(tutorial_test "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/tutorial_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_tutorial_test.xml")
+set_tests_properties(tutorial_test PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;57;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")
+add_test(tutorial_test_valgrind "/usr/bin/valgrind" "--error-exitcode=1" "--leak-check=full" "--soname-synonyms=somalloc=*jemalloc*" "--trace-children=yes" "--track-origins=yes" "--suppressions=/tmp/buzzdb-snippets/script/valgrind.supp" "/tmp/buzzdb-snippets/cmake-build-debug-docker/test/tutorial_test" "--gtest_color=yes" "--gtest_output=xml:/tmp/buzzdb-snippets/cmake-build-debug-docker/test/unit_tutorial_test.xml")
+set_tests_properties(tutorial_test_valgrind PROPERTIES  _BACKTRACE_TRIPLES "/tmp/buzzdb-snippets/test/CMakeLists.txt;64;add_test;/tmp/buzzdb-snippets/test/CMakeLists.txt;0;;/tmp/buzzdb-snippets/CMakeLists.txt;77;include;/tmp/buzzdb-snippets/CMakeLists.txt;0;")

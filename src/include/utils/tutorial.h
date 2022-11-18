@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <memory>
+#include <vector>
 
 namespace buzzdb{
 namespace utils{
@@ -24,6 +25,9 @@ public:
     // Copy constructor
 	Course(const Course& course_being_copied);
 
+    // Destructor
+    ~Course();
+
     // Overloading << operator for pretty printing objects of this class
     friend std::ostream& operator<<(std::ostream& os, const Course& s);  
 
@@ -38,25 +42,26 @@ class Student{
 public:
     int _student_id;
     std::string _student_name;
-    Course* _courses;
+    // Course* _courses;
+    std::vector<Course *> _courses;
 
     // Each student can only be enrolled in three courses
     static const int _max_number_of_courses = 3;
-    int _current_number_of_courses;
+    size_t _current_number_of_courses;
 
     Student(int student_id, std::string student_name);
 
     // Destructor is responsible for releasing resources
     // like allocated memory
-    ~Student();
+    // ~Student();
 
     // function for adding a course
     // returns true or false
-    bool add_course(const Course& course);
+    bool add_course(int course_id, std::string course_name);
 
     // function for dropping a course
     // returns true or false
-    bool drop_course(const Course& course);
+    bool drop_course(int course_id);
 
     friend std::ostream& operator<<(std::ostream& os, const Student& s);
 };

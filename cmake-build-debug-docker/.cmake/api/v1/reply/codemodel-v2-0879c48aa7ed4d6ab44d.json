@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BuzzDB",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "buzzdb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-buzzdb-Debug-bc03d8eacf9df9a56396.json",
+					"name" : "buzzdb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-Debug-7c993eda618ffd515a93.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-clang-format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-clang-format-Debug-60335660c8fd4d089b27.json",
+					"name" : "check-clang-format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-clang-format-fix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-clang-format-fix-Debug-7bc562621b70548d65c1.json",
+					"name" : "check-clang-format-fix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-tests-Debug-791f97a0043986510d35.json",
+					"name" : "check-tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check-tests-valgrind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-tests-valgrind-Debug-4db3b2873bb550f70bf3.json",
+					"name" : "check-tests-valgrind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "file_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-file_test-Debug-aa6e3fb9c505937952ef.json",
+					"name" : "file_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "file_test_valgrind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-file_test_valgrind-Debug-1ceccb238aab58a55023.json",
+					"name" : "file_test_valgrind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rw_latches_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rw_latches_test-Debug-cb4e2311272ab534592c.json",
+					"name" : "rw_latches_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rw_latches_test_valgrind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rw_latches_test_valgrind-Debug-4fa3ec3d5347f8a6ad30.json",
+					"name" : "rw_latches_test_valgrind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_test-Debug-7fe5626f0d014d9cfda1.json",
+					"name" : "tutorial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_test_valgrind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_test_valgrind-Debug-ecedd986acd865eba5e4.json",
+					"name" : "tutorial_test_valgrind",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/buzzdb-snippets/cmake-build-debug-docker",
+		"source" : "/tmp/buzzdb-snippets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
